@@ -1,0 +1,5 @@
+[user]
+	name = Ronald Crooy
+	email = r.a.crooy@gmail.com
+[credential]
+	helper = osxkeychain

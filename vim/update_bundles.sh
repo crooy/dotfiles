@@ -17,6 +17,7 @@ git_bundles = [
   "git://github.com/tsaleh/vim-tcomment.git",
   "git://github.com/tsaleh/vim-tmux.git",
   "git://github.com/vim-scripts/Gist.vim.git",
+	"git://github.com/altercation/vim-colors-solarized.git",
 ]
 
 vim_org_scripts = [

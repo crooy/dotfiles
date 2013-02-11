@@ -1,6 +1,9 @@
 # make shortcut for ls
 alias ll='ls -lh '
 
+# git shortcut for status
+alias gs='git status'
+
 # add colors to ls
 export CLICOLOR=$TERM
 

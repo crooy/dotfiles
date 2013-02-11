@@ -3,9 +3,12 @@ set nocompatible
 
 " Use pathogen to easily modify the runtime path to include all
 " plugins under the ~/.vim/bundle directory
-execute pathogen#infect()
+call  pathogen#infect()
 call pathogen#helptags()
 call pathogen#runtime_append_all_bundles()
+
+" set neocomplcache on
+let g:neocomplcache_enable_at_startup = 1
 
 set hidden
 set nowrap        " don't wrap lines
@@ -32,3 +35,5 @@ if has('gui_running')
 else
 	set background=dark
 endif
+syntax enable
+colorscheme solarized

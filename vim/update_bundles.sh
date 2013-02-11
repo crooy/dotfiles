@@ -1,8 +1,6 @@
 #!/usr/bin/env ruby
 
 git_bundles = [ 
-  "git://github.com/ervandew/supertab.git",
-  "git://github.com/godlygeek/tabular.git",
   "git://github.com/pangloss/vim-javascript.git",
   "git://github.com/scrooloose/nerdtree.git",
   "git://github.com/tpope/vim-cucumber.git",
@@ -18,6 +16,15 @@ git_bundles = [
   "git://github.com/tsaleh/vim-tmux.git",
   "git://github.com/vim-scripts/Gist.vim.git",
 	"git://github.com/altercation/vim-colors-solarized.git",
+	"git://github.com/derekwyatt/vim-scala.git",
+	"git://github.com/vim-scripts/Puppet-Syntax-Highlighting.git",
+	"git://github.com/kchmck/vim-coffee-script.git",
+	"git://github.com/derekwyatt/vim-sbt.git",
+  "git://github.com/leshill/vim-json",
+	"git://github.com/groeneweg/vim-less",
+	"git://github.com/scrooloose/syntastic.git",
+	"git://github.com/Shougo/neocomplcache.git",
+	"git://github.com/leafgarland/typescript-vim.git",
 ]
 
 vim_org_scripts = [

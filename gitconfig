@@ -3,3 +3,8 @@
 	email = r.a.crooy@gmail.com
 [credential]
 	helper = osxkeychain
+[core]
+	editor = vim
+	autocrlf = input
+[color]
+	ui = true

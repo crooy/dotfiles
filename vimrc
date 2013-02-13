@@ -4,8 +4,6 @@ set nocompatible
 " Use pathogen to easily modify the runtime path to include all
 " plugins under the ~/.vim/bundle directory
 call  pathogen#infect()
-call pathogen#helptags()
-call pathogen#runtime_append_all_bundles()
 
 " set neocomplcache on
 let g:neocomplcache_enable_at_startup = 1

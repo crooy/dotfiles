@@ -15,3 +15,6 @@ export EDITOR=vim
 
 # add npm binaries to the path
 export PATH=$PATH:/usr/local/share/npm/bin/
+
+# add brew binaries
+export PATH=$PATH:/usr/local/sbin/

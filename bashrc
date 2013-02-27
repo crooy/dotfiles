@@ -18,3 +18,6 @@ export PATH=$PATH:/usr/local/share/npm/bin/
 
 # add brew binaries
 export PATH=$PATH:/usr/local/sbin/
+
+# add python binaries
+export PATH=$PATH:/usr/local/share/python

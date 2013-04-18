@@ -21,3 +21,13 @@ export PATH=$PATH:/usr/local/sbin/
 
 # add python binaries
 export PATH=$PATH:/usr/local/share/python
+
+#change JVM options (for sbt)
+export JAVA_OPTS="-Xmx1024m"
+export SBT_OPTS=-XX:MaxPermSize=1024m
+
+# enable usefull searching through history
+"\e[A": history-search-backward
+"\e[B": history-search-forward
+set show-all-if-ambiguous on
+set completion-ignore-case on
